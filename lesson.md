@@ -1006,7 +1006,7 @@ package internal
 
 ```sh
 ➜ mkdir internal/mocks
-➜ go genereate ./...
+➜ go generate ./...
 ```
 
 ```shell
