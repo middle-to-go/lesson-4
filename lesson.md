@@ -134,9 +134,10 @@ type Stringer interface {
 }
 
 func (u *User) String() string {
-  if u == nil {
+  if u != nil {
   	return u.Name
   }
+  return ""
 }
 
 type User struct {
